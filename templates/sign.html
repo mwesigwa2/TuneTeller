@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/style2.css') }} "/>
+    <title>TuneTeller SignIn</title>
+</head>
+<body class="body">
+    <nav>
+        <a href=""><p class="logo">Tuner Teller</p></a>
+    </nav>
+    <div class="form-warrap">
+        <h2 class="h2div">Sign In</h2>
+        <form id="signin-form" action="">
+        <div class="for-div">
+            <input class="for-div input" type="text" id="username" placeholder="Email or phone number" required><br>
+        </div>
+        <div class="for-div">
+            <input class="for-div input" type="password" id="password" placeholder="Password" required><br>
+        </div>
+            <button type="submit">Sign-in</button>
+            <div class="form-help">
+                <div class="remember-me">
+                    <input type="checkbox" id="remember-me">
+                    <label for="remember-me">Remember me</label>
+                </div>
+                <a class="help-a" href="">Need help?</a>
+            </div>
+        </form>
+        <p class="morep">Tune Teller Recommender is here? <a href="">Sign up now</a></p>
+        <small class="small-p" >This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="">Learn more.</a>
+        </small>
+    </div>
+    </body>
+</html>
